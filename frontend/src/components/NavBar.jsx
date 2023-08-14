@@ -10,7 +10,7 @@ const Container = styled.nav`
   top: 0;
   margin: 0;
   padding: 0;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 98, 0.2) 0px 2px 8px 0px;
 `;
 
 const List = styled.ul`
@@ -41,7 +41,7 @@ const Text = styled.p`
   transition: all ease 0.3s;
   border-radius: 2px;
   &:hover {
-    background-color: rgb(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 254, 0.1);
   }
 `;
 
@@ -53,25 +53,25 @@ const NavBar = () => {
       <List>
         <li>
           <Link to="/" style={{ textDecoration: "none" }}>
-            <Text>Home</Text>
+            <Text>HOME</Text>
           </Link>
         </li>
         {user ? (
           <li>
             <Link to="/profile" style={{ textDecoration: "none" }}>
-              <Text>User Profile</Text>
+              <Text>USER PROFILE</Text>
             </Link>
           </li>
         ) : (
           <Box>
             <li>
               <Link to="/login" style={{ textDecoration: "none" }}>
-                <Text>Login</Text>
+                <Text>LOGIN</Text>
               </Link>
             </li>
             <li>
               <Link to="/signup" style={{ textDecoration: "none" }}>
-                <Text>Signup</Text>
+                <Text>SIGN UP</Text>
               </Link>
             </li>
           </Box>

@@ -44,7 +44,7 @@ const Input = styled.input`
   outline: none;
   padding: 6px;
   border: 1px solid lightgray;
-  background: rgb(255, 255, 255, 0.2);
+  background: rgb(255, 255, 254, 0.2);
   ::placeholder {
     color: #fff;
   }
@@ -54,7 +54,7 @@ const LargeInput = styled.input`
   outline: none;
   padding: 6px;
   border: 1px solid lightgray;
-  background: rgb(255, 255, 255, 0.2);
+  background: rgb(255, 255, 254, 0.2);
   width: 100%;
   color: black;
   ::placeholder {
@@ -76,7 +76,7 @@ const Row = styled.div`
 
 const SaveButton = styled.button`
   outline: none;
-  background-color: #4c956c;
+  background-color: #4c955c;
   transition: all ease 0.1s;
   border: 1px solid lightgray;
   color: #fff;
@@ -104,7 +104,7 @@ const ResetButton = styled.button`
   height: 2rem;
   &:hover {
     background-color: #dbb42c;
-    color: #000814;
+    color: #000813;
   }
 `;
 
